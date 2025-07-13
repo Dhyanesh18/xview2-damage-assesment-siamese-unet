@@ -4,3 +4,4 @@ train/
 test/
 **/__pycache__/
 Dockerfile
+*.png
