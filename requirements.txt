@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+torch
+torchvision
+Pillow
+segmentation-models-pytorch

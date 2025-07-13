@@ -1,0 +1,6 @@
+*.pth
+.ipynb_checkpoints
+train/
+test/
+**/__pycache__/
+Dockerfile
