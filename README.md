@@ -1,11 +1,11 @@
-# 🛰️ Siamese U-Net for Building Damage Assessment
+# Siamese U-Net for Building Damage Assessment
 
 This project implements a **Siamese U-Net** for pixel-wise building damage classification using the [xView2 dataset](https://xview2.org/).  
 It supports **training**, **evaluation**, and a **FastAPI backend for inference**.
 
 ---
 
-## 📌 Features
+## Features
 
 - Siamese U-Net with dual encoders (shared weights)
 - Pixel-wise segmentation (5 damage classes)
@@ -18,7 +18,7 @@ It supports **training**, **evaluation**, and a **FastAPI backend for inference*
 ---
 
 
-## 📁 Project Structure
+## Project Structure
 
 .
 ├── app/  
@@ -37,7 +37,7 @@ It supports **training**, **evaluation**, and a **FastAPI backend for inference*
 ---
 
   
-## ⚡ Requirements
+## Requirements
 
 ```bash
 # Create a virtual env (optional but recommended)
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 
 
-🚀 Training
+Training
 
 Train your Siamese U-Net:
 ```
@@ -77,7 +77,7 @@ Outputs:
     Metrics: mIoU, Dice, per-class IoU, per-class Pixel Accuracy
 
 
-## 📊 Example Evaluation Results
+## Example Evaluation Results
 
 | Metric | Value |
 |----------------|-----------|
@@ -101,7 +101,7 @@ Outputs:
 
 
 
-⚙️ FastAPI Inference 
+FastAPI Inference 
 
 Run the backend:
 ```
