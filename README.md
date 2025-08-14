@@ -3,6 +3,9 @@
 This project implements a **Siamese U-Net** for pixel-wise building damage classification using the [xView2 dataset](https://xview2.org/).  
 It supports **training**, **evaluation**, and a **FastAPI backend for inference**.
 
+<img width="386" height="386" alt="Screenshot 2025-07-28 134335" src="https://github.com/user-attachments/assets/10fe09ed-185b-4d86-bfd2-e9925a5e2d2b" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="386" height="386" alt="predicted_mask" src="https://github.com/user-attachments/assets/286c2188-1eca-4b71-88fa-c9dc998dc317" />
+
 ---
 
 ## Features
