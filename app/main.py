@@ -24,6 +24,7 @@ async def predict_damage(
 
     color_mask = mask_to_color(mask)
     overlay = overlay_mask(post, color_mask)
+    overlay.save("predicted_mask.png")
 
     buf = io.BytesIO()
     overlay.save(buf, format="PNG")

@@ -30,8 +30,8 @@ def load_image(image_path):
     img = img.unsqueeze(0)
     return img
 
-pre_image = load_image("test/images/guatemala-volcano_00000003_pre_disaster.png").to(DEVICE)
-post_image = load_image("test/images/guatemala-volcano_00000003_post_disaster.png").to(DEVICE)
+pre_image = load_image("test/images_pre/guatemala-volcano_00000003_pre_disaster.png").to(DEVICE)
+post_image = load_image("test/images_post/guatemala-volcano_00000003_post_disaster.png").to(DEVICE)
 
 with torch.no_grad():
     output = model(pre_image, post_image)
