@@ -23,7 +23,7 @@ It supports **training**, **evaluation**, and a **FastAPI backend for inference*
 
 ## Project Structure
 
-.
+.  
 ├── app/  
 │ ├── main.py # FastAPI app  
 │ ├── model.py # Load model + predict helpers  
