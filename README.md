@@ -4,7 +4,15 @@ This project implements a **Siamese U-Net** for pixel-wise building damage class
 It supports **training**, **evaluation**, and a **FastAPI backend for inference**.
 
 <img width="386" height="386" alt="Screenshot 2025-07-28 134335" src="https://github.com/user-attachments/assets/10fe09ed-185b-4d86-bfd2-e9925a5e2d2b" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="386" height="386" alt="predicted_mask" src="https://github.com/user-attachments/assets/286c2188-1eca-4b71-88fa-c9dc998dc317" />
+<img width="386" height="386" alt="predicted_mask" src="https://github.com/user-attachments/assets/286c2188-1eca-4b71-88fa-c9dc998dc317" />  
+
+## Architecture used: Siamese-Unet with resent34 encoder 
+### NOTE: In this implementation i had used difference of feature map unlike this image which uses concatenation, due to resource constraints.
+<img width="800" height="385" alt="Siamese-U-Net-architecture-with-ResNet34-as-encoder" src="https://github.com/user-attachments/assets/bdaf7bec-ad48-458b-a545-ae9c8d5376e3" />
+
+
+Image source: Research Gate
+
 
 ---
 
@@ -98,7 +106,7 @@ Outputs:
 | Class 3 | 0.5744 | 0.5863 | 0.9941 |
 | Class 4 | 0.6707 | 0.6902 | 0.9977 |
 
-*These numbers are from the test set. They show strong segmentation of undamaged areas and reasonable damage class detection. There is scope to further improve damage class performance with more data, augmentations, and advanced training strategies.*
+*These numbers are from the test set. They show strong segmentation of undamaged areas and reasonable damage class detection. There is scope to further improve damage class performance with more data, augmentations, and advanced training strategies. Changes to the architeceture like concatenation of feature maps before decode instead of difference, will greatly help!*
 
 ---
 
